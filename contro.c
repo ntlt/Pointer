@@ -20,6 +20,7 @@ int main()
     for (int i=0; i<10; i++)
     {
         printf("%x\n", *(pt+i));
+        pt++;  //pt = pt + 1
     }
 
     printf("after pt = %d\n", pt);
