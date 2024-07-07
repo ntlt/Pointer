@@ -11,6 +11,15 @@ int main()
     pt = x;
     ptt = x;
 
+
+    printf("0x%04x\n", *ptt);   // -> 0201
+    printf("berfore ptt =%d\n", ptt);
+    ptt++;
+
+    printf("0x%04x\n", *ptt);   // -> 0403
+    printf("berfore ptt =%d\n", ptt);
+
+/*
     printf("%x\n", *pt);     //0x01 pt[0]
 
     printf("%x\n", *(pt+1));   //0x02 pt[1]
@@ -24,5 +33,8 @@ int main()
     }
 
     printf("after pt = %d\n", pt);
+
+*/
+
     return 0;
 }
