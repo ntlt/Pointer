@@ -15,12 +15,13 @@ int main()
 
     printf("%x\n", *(pt+1));   //0x02 pt[1]
 
+    printf("before pt = %d\n", pt);
 
-for (int i=0; i<10; i++)
-{
-    printf("%x\n", *(pt+i));
-}
+    for (int i=0; i<10; i++)
+    {
+        printf("%x\n", *(pt+i));
+    }
 
-
+    printf("after pt = %d\n", pt);
     return 0;
 }
